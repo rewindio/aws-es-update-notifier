@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "es-update-notifier"
+s3_prefix = "es-update-notifier"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+tags = "product=\"common\" grouping=\"tooling\" service=\"infrastructure-updates\" managed-resource=\"sam\""
