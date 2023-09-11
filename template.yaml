@@ -27,7 +27,7 @@ Resources:
     Properties:
       CodeUri: src/
       Handler: app.lambda_handler
-      Runtime: python3.7
+      Runtime: python3.11
       Timeout: 60
       Role: !GetAtt ESNotifierIAMRole.Arn
       Environment:
